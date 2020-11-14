@@ -1,0 +1,74 @@
+/* 
+
+ECECEC
+*/
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --hover-color: #2196F3;
+}
+ul {
+    list-style: none;
+}
+body {
+    color: var(--primary-text-color);
+    background-color: #ffffff;
+}
+/* site nav */
+.logo {
+    color: var(--hover-color);
+}
+nav > a {
+    color: #000000;
+}
+.site-nav .link {
+    color: var(--title-text-color);
+}
+.site-nav .link:hover, .site-nav .link:focus {
+    color:var(--primary-text-color);
+}
+address a {
+    color: var(--primary-text-color);
+}
+.mail:hover, .mail:focus {
+    color:var(--hover-color);
+}
+/* hero */
+.hero {
+    background-color: #2F303A;
+}
+.hero-title {
+    color: #ffffff;
+}
+/* main */
+.section-title {
+    color: var(--title-text-color);
+}
+.features-list .title, .names {
+    color: var(--title-text-color);
+}
+.team {
+    background-color: #F5F4FA;
+}
+
+/* button */
+
+.button {
+    color: #ffffff;
+    background-color: var(--hover-color);
+}
+.button:hover, .button:focus {
+    background-color: #188CE8;
+}
+
+/* footer */
+
+footer {
+    background-color: #2F303A;
+}
+footer > a, .map {
+    color: #ffffff;
+}
+.contacts {
+    color: rgba(255, 255, 255, 0.6);
+}
