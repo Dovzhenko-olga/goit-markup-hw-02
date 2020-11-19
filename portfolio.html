@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./css/common.css">
 <link rel="stylesheet" href="./css/styles.css">
     <title>Portfolio</title>
@@ -29,20 +29,15 @@
     </header>
     <main>
         <h1>Галерея</h1>
-     <section class="filter">
-        <h2>Фильтр</h2>
-        <input class="filter-item" id="filter-all" type="radio" name="filter" value="all" checked>
-        <label for="filter-all">Все</label>
-        <input class="filter-item" id="filter-web" type="radio" name="filter" value="web">
-        <label for="filter-web">Веб-сайты</label>
-        <input class="filter-item" id="filter-apps" type="radio" name="filter" value="apps">
-        <label for="filter-apps">Приложения</label>
-        <input class="filter-item" id="filter-design" type="radio" name="filter" value="design">
-        <label for="filter-design">Дизайн</label>
-        <input class="filter-item" id="filter-marketing" type="radio" name="filter" value="marketing">
-        <label for="filter-marketing">Маркетинг</label>
-     </section>
      <section>
+        <h2>Фильтр</h2>
+        <ul>
+            <li><button class="filter">Все</button></li>
+            <li><button class="filter">Веб-сайты</button></li>
+            <li><button class="filter">Приложения</button></li>
+            <li><button class="filter">Дизайн</button></li>
+            <li><button class="filter">Маркетинг</button></li>
+        </ul>        
          <h2>Наши работы</h2>
          <ul class="work-list">
              <li class="work-item"><a href=""><img src="./images/work1.jpg" alt="Tehnocryack" width="370">

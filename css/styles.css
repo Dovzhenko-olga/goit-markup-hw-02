@@ -1,10 +1,10 @@
 
 /* hero */
 .hero {
-    background-color: #2F303A;
+    background-color: var(--footer-back-color);
 }
 .hero-title {
-    color: #ffffff;
+    color: var(--primary-white-color);
     font-weight: 900;
     line-height: 1.36;
     text-align: center;
@@ -14,8 +14,8 @@
 }
 /* button */
 
-.button {
-    color: #ffffff;
+.hero button {
+    color: var(--primary-white-color);
     background-color: var(--hover-color);
     font-family: inherit;
     font-weight: 700;
@@ -23,7 +23,7 @@
     font-size: 16px;
     letter-spacing: 0.06em;
 }
-.button:hover, .button:focus {
+.hero button:hover, .hero button:focus {
     background-color: #188CE8;
 }
 
@@ -53,7 +53,7 @@
 }
 .names {
     color: var(--title-text-color);
-    background-color: #F5F4FA;
+    background-color: var(--gray-back-color);
     font-weight: 500;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -68,22 +68,13 @@
 
 /* portfolio */
 
-.filter input[type=radio] {
-    display: none;
-}
-.filter label {	
-    cursor: pointer;
+.filter{
+    background-color: var(--gray-back-color);
     color: var(--title-text-color);
-    background-color: #F5F4FA;	
-    user-select: none;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    letter-spacing: 0.03em;
 }
-.filter input[type=radio]:checked + label {
-    color: #ffffff;
-	background-color: var(--hover-color);
+.filter:hover, .filter:focus {
+    background-color: var(--hover-color);
+    color: var(--primary-white-color);
 }
 .work-list .title {
     color: var(--title-text-color);
@@ -94,7 +85,7 @@
 }
 
 .work-item {
-    background-color: #EEEEEE;
+    background-color: var(--primary-white-color);
 }
 .work-item p {
     color: var(--primary-text-color);
